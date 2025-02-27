@@ -1,9 +1,61 @@
-body{
-    background-color: cornsilk;
-}
+/* Created by Ashley Sznyitar */
+        
+        body{
+            background-color: cornsilk;
+            background-image: url(images/tears-white-small.png);
+            font-family: arial, sans-serif;
+        }
 
-h2{
-    background-color:black;
-    color:cornsilk;
-}
+        h1{
+            text-align:center;
+            text-shadow: 2px 1px darkred;
+            letter-spacing: 2px;
+            font-variant: small-caps;
+        }
+        h2{
+            background-color:black;
+            color:cornsilk;
+        }
 
+        a:link,a:visited{
+            color: #722f30;
+        }
+
+        a:hover{
+            color: #722f30;
+            text-decoration: none;
+            font-style: italic;
+        }
+
+        .prettywords{
+
+            font-style: italic;
+            color:midnightblue;
+            font-family: monospace;
+            font-size: 12pt;
+        }
+
+        .topaddress{
+            text-align: center;
+            font-variant: small-caps;
+            color:midnightblue;
+        }
+
+        .expicon{
+            list-style-image: url(images/micon.gif);
+        }
+
+        .fancypic{
+            border-radius: 75%;
+            border: 1px solid black;
+            padding: 5px;
+            filter: grayscale(100%);
+            text-align: center;
+        }
+
+        footer{
+            text-align: center;
+            font-style: italic;
+            font-size: small;
+
+        }

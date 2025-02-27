@@ -1,3 +1,5 @@
+<!--Created by Ashley Sznyitar-->
+
 <!DOCTYPE html>
 <html>
 
@@ -5,41 +7,7 @@
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mickey's Resume</title>
-    <style>
-        body{
-            background-color: cornsilk;
-            background-image: url(images/tears-white-small.png);
-            font-family: arial, sans-serif;
-        }
-
-        h1{
-            text-align:center;
-            text-shadow: 2px 1px darkred;
-            letter-spacing: 2px;
-            font-variant: small-caps;
-        }
-        h2{
-            background-color:black;
-            color:cornsilk;
-        }
-
-        a:link,a:visited{
-            color: #722f30;
-        }
-
-        a:hover{
-            color: #722f30;
-            text-decoration: none;
-            font-style: italic;
-        }
-
-        footer{
-            text-align: center;
-            font-style: italic;
-            font-size: small;
-
-        }
-    </style>
+    <link rel ="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -47,13 +15,19 @@
         <h1 style="color: dimgray;">Mickey M. Mouse</h1>
     </header>
 
+
     <aside>
-        <h4>
+        <h4 class="topaddress">
             Walt Disney World, Orlando,&nbsp;FL 11110<br>    
         <a href"tel:+1-555-555-5555">(555) 555-5555</a> &phone;    <br>
         mickey@make&#8209;believe.com
     </h4>
-    <p style="text-align:center;"<img src="images/mickey.gif" alt="Mickey Picture"></p>
+    <p style="text-align:center;">
+    <picture>
+        <source media ="(min-width: 500px)" srcset="images/mmface.png">
+        <img src="images/mickey.gif" alt="Mickey Picture">
+    </picture>
+     </p>
     </aside>
 
     <main>
@@ -64,16 +38,16 @@
 
 <h2>&#10026;EXPERIENCE</h2>
 <p><strong>Cartoon Mice for Social Change</strong>, Washington D.C.</p>
-Public Relations Director, Sept 2007-Present
-<ul>
+Public Relations Director, <span class="prettywords">Sept 2007-Present</span>
+<ul class="expicon">
 <li> Communicate with the public on important social issues from homeless mice to cartoonist unemployment</li>
 <li>Organize the grassroots efforts of cartoon mice everywhere through internet awareness campaigns</li>
 <li>Manage the creation of new political initiatives while overseeing the successful implementation of 3-5 others</li>
 </ul>
 <ul>
 <p><strong>The Mickey Mouse Club</strong>, Orlando, FL
-President and <abbr title="Chief Executive Officer"> CEO</abbr>, June 2002-Aug 2007</p>
-<ul>
+President and <abbr title="Chief Executive Officer"> CEO</abbr>,<span class="prettywords"> June 2002-Aug 2007</p></span>
+<ul class="expicon">
 <li>He's the leader of the club that's made for you and me</li>
 <li>Created this five hundred employee organization from scratch</li>
 <li>Gladdened the hearts of millions of children and adults across the world</li>
@@ -88,7 +62,8 @@ President and <abbr title="Chief Executive Officer"> CEO</abbr>, June 2002-Aug 2
     </main>
 
     <footer>
-        Copyright 2025  Created by Ashley Sznyitar
+        <img src ="images/mickeycrew.jpg" alt="Mickey Crew" class="fancypic">
+        <p><small> 2025  Created by Ashley Sznyitar</small></p>
     </footer>
 </body>
 
