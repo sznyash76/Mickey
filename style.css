@@ -53,6 +53,29 @@
             text-align: center;
         }
 
+        .site{
+            background-color:white;
+            width:90%;
+            margin: 0 auto;
+            border: 1px solid black ;
+        }
+        
+        aside{
+            float:left;
+            width:25%;
+        }
+
+        main{
+            float:left;
+            width:75%;
+        }
+
+        @media only screen and (max-width: 600px){
+            aside {float:none; width:100%;}
+            main{float:none; width:100%}
+        }
+
+
         footer{
             text-align: center;
             font-style: italic;
